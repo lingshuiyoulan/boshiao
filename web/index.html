@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博仕奥生物有限公司</title>
+    <link rel="icon" href="/res/img/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="/res/css/boshiao.css">
+    <script type="text/javascript" src="/res/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".boshiao-content-main-left li").click(function () {
+                $('.boshiao-content-main-left li').removeClass('active-left');
+                $(this).addClass('active-left');
+                $('.boshiao-content-main-right').hide();
+                $('.boshiao-content-main-right').eq($(this).index()).show();
+            });
+        });
+    </script>
+</head>
+<body>
+<!--背景图片-->
+<div class="bg">
+    <img src="/res/img/bg.png" style="width: 100%">
+</div>
+<!--顶部logo-->
+<div class="boshiao-title">
+    <div class="boshiao-title-logo">
+        <img src="/res/img/logo.png" title="logo" style="height: 80px;width: auto;">
+    </div>
+</div>
+
+<!--顶部导航-->
+<div class="boshiao-title-nav">
+    <ul>
+        <li class="active"><a href="#">公司简介</a></li>
+        <li><a href="/news.html">新闻资讯</a></li>
+        <li><a href="/product.html">产品展示</a></li>
+        <li><a href="/recruit.html">招贤纳士</a></li>
+        <li><a href="/contact.html">联系我们</a></li>
+    </ul>
+</div>
+
+<div class="boshiao-show-img">
+    <img src="/res/img/welcome.png" style="width: 1000px;height: auto;">
+</div>
+
+<!--内容-->
+<div class="boshiao-content">
+    <!--公司简介-->
+    <div class="boshiao-content-main">
+        <div class="boshiao-content-main-left">
+            <span class="linear">公司简介</span>
+            <ul>
+                <li class="active-left">公司简介</li>
+                <li>企业理念</li>
+            </ul>
+        </div>
+        <!--公司简介-->
+        <div class="boshiao-content-main-right">
+            <span>
+                北京博仕奥生物技术有限公司成立于2005年6月，是一家致力于无抗营养饲料添加剂的研究开发与生产应用的技术密集型科技企业。<br>
+            </span>
+
+            <span>
+                博仕奥具有专业的研发机构---酶生物工程技术研究中心，主要从事酶制剂和微生态制剂的生产与应用的研究。公司秉承了原广州佳酶公司10多年的酶制剂生产经验，并与国内外多所著名大学、研究所建立了紧密合作。公司科技力量雄厚，现有博士后2名，教授2名，高级工程师5名，硕士8名，研究设备齐全，拥有完善的动物营养研究和饲料添加剂生产系统，主要包括合成实验室，中试合成车间，合成基地，生物发酵基地（北京，河南）等。<br>
+            </span>
+
+            <span>
+                博仕奥以“心有所向，肩有担当，专业专注，务实创新”的企业精神，致力于动物营养研究，不断开发新产品；并以“绿色，诚信，安全，高效”的经营理念，与国内外客户建立更广泛而深入的合作伙伴关系，为我国畜禽水产事业的发展做出新的贡献。<br>
+            </span>
+        </div>
+        <!--企业理念-->
+        <div class="boshiao-content-main-right" style="display: none;">
+            <span>
+                博仕奥以“心有所向，肩有担当，专业专注，务实创新”的企业精神，致力于动物营养研究，不断开发新产品；并以“绿色，诚信，安全，高效”的经营理念，与国内外客户建立更广泛而深入的合作伙伴关系，为我国畜禽水产事业的发展做出新的贡献。<br>
+            </span>
+        </div>
+    </div>
+</div>
+
+<!--页脚-->
+<div class="boshiao-footer">
+    <span>版权所有</span>
+    <span>&copy;</span>
+    <span>2017-2027</span>
+    <span>北京博仕奥生物技术有限公司</span>
+</div>
+
+</body>
+</html>
