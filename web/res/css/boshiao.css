@@ -9,11 +9,11 @@ body {
     font-family: '微软雅黑', Arial sans-serif;
 }
 
-.bg{
+.bg {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: -999;
-    width:100%;
+    width: 100%;
 }
 
 .boshiao-title, .boshiao-show-img,
@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     width: 1000px;
 }
+
 /*.boshiao-content{
     height: 380px;
 }*/
@@ -31,18 +32,17 @@ body {
 
 .boshiao-footer {
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100%;
+    padding: 20px 5px 5px 5px;
     background-color: #2E9F13;
-    height: 50px;
     text-align: center;
     color: #ffffff;
 }
 
-.boshiao-footer span {
-    line-height: 50px;
+.boshiao-footer span{
+    margin: 5px;
 }
-
 .boshiao-title-logo {
     text-align: left;
     height: 80px;
@@ -60,24 +60,25 @@ body {
     float: left;
     list-style: none;
     font-size: 18px;
-    width:150px;
+    width: 150px;
     height: 50px;
     line-height: 50px;
 }
 
-.boshiao-title-nav li a{
-    text-decoration:none;
+.boshiao-title-nav li a {
+    text-decoration: none;
     color: inherit;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     display: block;
 }
+
 .boshiao-title-nav li:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .boshiao-title-nav .active {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .boshiao-content-main {
@@ -85,17 +86,18 @@ body {
 }
 
 .boshiao-content-main-left {
-    padding:0;
+    padding: 0;
     width: 250px;
     float: left;
     text-align: left;
     background-color: rgba(236, 236, 236, 0.36);
 }
 
-.boshiao-content-main-left ul{
+.boshiao-content-main-left ul {
     border: 1px solid #DEDEDE;
     background-color: #fff;
 }
+
 .boshiao-content-main-left span {
     padding: 10px;
     display: block;
@@ -117,7 +119,8 @@ body {
 .boshiao-content-main-left li:hover {
     color: #005b00;
 }
-.boshiao-content-main-left .active-left{
+
+.boshiao-content-main-left .active-left {
     color: #005b00;
 }
 
@@ -135,11 +138,11 @@ body {
     text-indent: 2em;
 }
 
-.linear{
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=##15A216,endColorStr= #00d500); /*IE*/
-    background:-moz-linear-gradient(top,#15A216,#00d500);/*火狐*/
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#15A216), to(#00d500));/*谷歌*/
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #15A216),color-stop(1, #00d500));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#15A216', endColorstr='#00d500'); /*IE6 & IE7*/
+.linear {
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = # #15A216, endColorStr = #00d500); /*IE*/
+    background: -moz-linear-gradient(top, #15A216, #00d500); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#15A216), to(#00d500)); /*谷歌*/
+    background-image: -webkit-gradient(linear, left bottom, left top, color-start(0, #15A216), color-stop(1, #00d500)); /* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#15A216', endColorstr='#00d500'); /*IE6 & IE7*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#15A216', endColorstr='#00d500')"; /* IE8 */
 }
